@@ -22,7 +22,7 @@ npm run build
 
 ## Personal configuration
 
-Update links and contact placeholders in `src/data/profile.ts`. Update featured repository links in `src/data/projects.ts`. For a repository project page, set `VITE_BASE_PATH` to the repository path when building, for example `/devops-platform-portfolio/`; user and organization Pages sites can use `/`.
+Update social and contact placeholders in `src/data/social.ts`. Update featured repository links in `src/data/projects.ts`; skills, principles and experience are kept in their corresponding data files. For a repository project page, set `VITE_BASE_PATH` to the repository path when building, for example `/devops-platform-portfolio/`; user and organization Pages sites can use `/`.
 
 ## Deployment
 
@@ -32,6 +32,6 @@ Update links and contact placeholders in `src/data/profile.ts`. Update featured 
 
 - `src/App.tsx` - page composition and interactive navigation/theme behavior
 - `src/index.css` - responsive visual system and reduced-motion support
-- `src/data/` - centralized profile, skills, journey, principles and project content
+- `src/data/` - centralized profile, social links, skills, journey, principles, experience and project content
 - `public/` - static favicon and public assets
 - `.github/workflows/` - GitHub Pages deployment
