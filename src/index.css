@@ -32,7 +32,7 @@ button { font: inherit; }
 
 .nav-links a.nav-featured { color: #c9e9df; }
 .hero-name { color: #e6f1ee; font: 500 13px 'DM Mono', monospace; letter-spacing: .12em; text-transform: uppercase; margin: 34px 0 0; }
-.hero-role { color: #73e1c0; font: 11px 'DM Mono', monospace; letter-spacing: .1em; text-transform: uppercase; margin: -13px 0 27px; }
+.hero-role { color: #73e1c0; font: 11px 'DM Mono', monospace; letter-spacing: .1em; text-transform: none; line-height: 1.6; margin: 10px 0 0; }
 .hero-note { line-height: 1.7; }
 .career-line { color: #6d8992; font: 10px 'DM Mono', monospace; letter-spacing: .06em; text-transform: uppercase; margin-top: 19px; }
 .career-line span { color: #73e1c0; padding: 0 6px; }
@@ -62,3 +62,11 @@ button { font: inherit; }
 	.database-trail div:nth-child(2n) { border-right: 0; }
 	.database-trail div:nth-child(n+3) { border-top: 1px solid rgba(185, 210, 219, .14); }
 }
+
+.infra-core { width: 228px; height: 158px; padding: 16px; text-align: center; }
+.infra-core strong { margin-top: 0; font-size: 17px; white-space: nowrap; }
+.infra-core span:last-child { margin-top: 8px; }
+.infra-node.database { top: 15%; left: 18%; }
+.infra-node.devops { top: 14%; right: 17%; }
+.infra-node.leadership { bottom: 20%; left: 12%; }
+.infra-node.mlops { right: 13%; bottom: 21%; }

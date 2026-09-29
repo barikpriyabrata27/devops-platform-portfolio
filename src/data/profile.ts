@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Priyabrata Barik',
-  role: 'Senior DevOps & Platform Engineer',
+  role: 'Senior DevOps & Platform Engineer (Pursuing MLOPS)',
   tagline: 'Cloud · DevOps · Platform Engineering · CI/CD · Infrastructure as Code · Automation',
 }
 
